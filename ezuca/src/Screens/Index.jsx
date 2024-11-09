@@ -31,7 +31,7 @@ const Index = () => {
                     <Card2 image="https://themewagon.github.io/ezuca/images/2.jpg" heading="Learn Photoshop, Web Design & Profitable" name="Ms. Lara Croft" date="July 21, 2018" price="32$" strikethrough="59$" />
                 </div>
             </div>
-            <div className='relative top-[700px] footer'>
+            <div className='relative top-[750px] footer'>
             <Footer/>
             </div>
         </div>
