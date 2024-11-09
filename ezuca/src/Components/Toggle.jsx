@@ -49,7 +49,7 @@ const Toggle= () => {
           Reload
         </Button>
         {routes.map(({ path, label }, index) => (
-                            <Link key={index} to={path} className='nav-linkk'>
+                            <Link key={index} to={path} className='nav-linkk' onClick={() => setOpen(false)}>
                                 {label}
                             </Link>))}
       </Drawer>
